@@ -1,0 +1,503 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* FONTS */
+@font-face {
+  font-family: "trebuc";
+  src: url(../fonts/trebuc.ttf);
+  }
+  @font-face {
+    font-family: "STEAK";
+    src: url(../fonts/STEAK.ttf);
+    }
+  
+  @font-face {
+    font-family: "Trebuchet-MS-Italic";
+    src: url(../fonts/Trebuchet-MS-Italic.ttf);
+    }
+/*COLORES*/
+
+:root {
+  --color1: #4E0000;
+  --color7: #1d0202;
+  --color2: rgb(255, 255, 255);
+  --color3: rgb(255, 255, 255);
+  --color11: rgb(78, 0, 0,0,3);
+}
+.colorbtn{
+  background-color: black;
+}
+.text-color1{
+  color: var(--color1);
+}
+.text-color2{
+  color: var(--color2);
+}
+.bg-color1{
+  background: var(--color1);
+}
+.bg-color111{
+  background: var(--color11);
+}
+
+.bg-color2{
+  background: var(--color2);
+}
+
+.btn-outline-color1{
+  color: var(--color1);
+  border: 2px solid var(--color1);
+  border-radius: 30px;
+}
+
+
+.HOVERBT:hover{
+  opacity: 0.7;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+/*HEADER*/
+
+
+
+/*
+
+/*BOTONES TIENDA*/
+
+
+/*@media (max-width: 767px) { 
+  .navPC{
+      display:none;
+      height: 0px;
+      width: 0px;
+      margin: 0;
+  }
+  #navPhone{
+    visibility: visible;
+    float:right;
+  }
+  
+}
+#navPhone{
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+*/
+/* SECCION PASTELES */
+
+
+.sizehd{
+   height: 110px;
+  width: 80%;
+  background: var(--color1);
+}
+.sizehd1{
+  height: 110px;
+
+ background: var(--color1);
+}
+.tst {
+  width: 120px;
+  text-align: center;
+  background: var(--color1);
+  
+ 
+
+}
+.bannerBG{
+  background-image:url('../images/BANNERBG.webp');
+  background-size: 150% auto;
+  background-position: center ;
+  background-repeat: repeat;
+
+
+}
+
+.bannerdiv{
+  background-color: rgba(0, 0, 0, 0.7);
+  
+}
+.bannerBG div h1{
+  font-family: "STEAK";
+  color: white;
+}
+.cartTitleFont{
+  font-family: "STEAK";
+  color: white;
+}
+.bannerBG div p{
+  font-family: "STEAK";
+  color: white;
+  font-size: xx-large;
+}
+.bannerBG div p a{
+  font-family: "trebuc";
+  color: white;
+  font-size: medium;
+  border-width: 3px;
+  border-color:rgb(255, 255, 255,0.89);
+  border-radius: 0%;
+  width: 175px;
+}
+.famousPlatesBG{
+  background-image:url('../images/background1.webp');
+  background-size: 100% auto;
+  background-position: center ;
+  
+}
+.famousPlatesBG>.bgcol{
+  background-color: rgba(0, 0, 0, 0.49);
+}
+.famousPlatesBG div div  a{
+  font-family: "STEAK";
+  color: white;
+  
+  text-align: center;
+  text-decoration: none;
+  
+}
+.hoverFP:hover{
+  transform: scale(1.1);
+transition: all 0.5s ease-in-out;
+}
+button:hover{
+transform: scale(1.1);
+transition: all 0.5s ease-in-out;
+}
+
+.fotocolumna{
+  width: 100%;
+  height: auto;
+
+  
+}
+
+.section2BG{
+  background-image:url('../images/section2BG.webp');
+  background-size: 100% auto;
+  background-position: center ;
+  
+}
+
+
+.section2BG>.banners2{
+  background-color: rgba(0, 0, 0, 0.82);
+}
+.section2BG h2{
+  font-family: "STEAK";
+  color: white;
+  font-size: large;
+}
+.section2BG p{
+  font-family: "trebuc";
+  color: white;
+}
+.section2BG p a{
+  font-family: "trebuc";
+  color: white;
+}
+
+.f {
+  background-color: rgb(2, 2, 2, 0.7);
+  padding: 2%;
+  width: 60%;
+  float: right;
+  margin-right: 20%;
+  margin-bottom: 0%;
+
+}
+
+.ba{
+  padding: 2%;
+  width: 60%;
+  margin-right: 20%;
+  margin-bottom: 0%;
+}
+
+.n{
+  background-color: rgb(2, 2, 2, 0.7);
+  padding: 6%;
+  width: 60%;
+  float: right;
+  margin-right: 20%;
+  margin-top: 0%;
+  padding-top: 0%;
+  font-size: small;
+}
+
+.s{
+  float: right;
+}
+
+.bckg p{
+  font-size: small;
+}
+
+
+.btun a{
+  font-family: "trebuc";
+  color: white;
+  font-size: medium;
+  text-align: center;
+  border-width: 3px;
+  border-color:rgb(255, 255, 255,0.89);
+  border-radius: 0%;
+  
+  height: 12;
+}
+
+#whitebutton{
+  font-family: "trebuc";
+  color: rgb(0, 0, 0);
+  background-color: white;
+  font-size: medium;
+  text-align: center;
+  border-width: 4px;
+  border-color:#4E4838;
+  border-radius: 0%;
+  
+  height: 12;
+}
+.btuncarrito a{
+  font-family: "trebuc";
+ color: rgb(255, 255, 255);
+  font-size: xx-large;
+  text-align: center;
+  text-decoration: none;
+ 
+}
+
+
+.sectionBG3{
+  background-image:url('../images/section3bg.webp');
+  background-size: 100% auto;
+  background-position: center ;
+  background-repeat: repeat;
+  
+
+
+}
+
+.section3div{
+  background-color: rgba(0, 0, 0, 0.7);
+  
+}
+.sectionBG3 div h2{
+  font-family: "STEAK";
+  color: white;
+  font-size: x-large;
+}
+.sectionBG3 div p{
+  font-family: "trebuc";
+  color: white;
+  font-size: small;
+}
+.sectionBG3 div p a{
+  font-family: "trebuc";
+  color: rgb(0, 0, 0);
+  background-color: white;
+  font-size: medium;
+  border-width: 3px;
+  border-color:rgba(0, 0, 0, 0.89);
+  border-radius: 0%;
+  width: 175px;
+}
+
+
+
+.divsize{
+  width:45%;
+ 
+  
+}
+
+
+@media (max-width: 992px) {
+  #divimg{
+    visibility: visible;
+    height: 0px;
+    width: 0px;
+    margin: 0;
+  }
+
+  #divimg img{
+    height: 0px;
+    width: 0px;
+    margin: 0;
+  }
+  .banners2{
+    width: 100%;
+    padding-left: 60%;
+  }
+  #divtext{
+    visibility: visible;
+    
+   
+   
+  }
+  #divtext div{
+    visibility: visible;
+    margin: 0%;
+    width: 100%;
+    
+   
+  }
+  #divtext p{
+    visibility: visible;
+   padding: 8%;
+    width: 280px ;
+    padding-top: 0%;
+    float:right;
+    
+   
+  }
+  #divtext h2{
+    visibility: visible;
+    float:right;
+    width: 280px ;
+   
+    
+
+  }
+  .s a{
+    visibility: visible;
+   float: left;
+  margin-left: 25%;
+  text-align: center;
+  
+  }
+  }
+  
+  
+    
+    
+  
+
+
+.sizenv{
+  width: 120px;
+color: white;
+text-align: center;
+font-family: "trebuc";
+
+}
+
+.sizenv:hover{
+  width: 130px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: "Trebuchet-MS-Italic";
+	transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    }
+.sizenvm{
+width: 120px;
+color: white;
+font-size: large;
+text-align: center;
+font-family: "trebuc";
+
+}
+
+.sizenvm:hover{
+width: 120px;
+background-color: black;
+color: white;
+text-align: center;
+font-size: large;
+font-family: "Trebuchet-MS-Italic";
+transform: scale(1.1);
+transition: all 0.5s ease-in-out;
+  }
+.sizelink{
+width: 114px;
+color: white;
+text-align: center;
+font-family: "trebuc";
+  }
+
+.sizeicon{
+width:27px; 
+height: 27px;
+  }
+
+.footernv{
+margin: auto;
+  }
+  
+.sizeList{
+  width: 170px;
+  
+}
+.copyright{
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: white;
+  width: 100%;
+  font-family: "trebuc";
+ background: var(--color1);
+ text-align: center;
+ font-size: small;
+ 
+
+}
+
+.backgroundMenu{
+  background-image: url('../images/background1 (2).webp');
+ 
+
+}
+.textsizePlates{
+  font-family: "STEAK";
+  color: white;
+  font-size: small;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+.textsizePlatescarrito {
+  font-family: "STEAK";
+  color: white;
+  font-size: medium;
+  text-align: center;
+}
+.textsizePlatescarritoVacio {
+  font-family: "STEAK";
+  color: white;
+  font-size: xx-large;
+  text-align: center;
+}
+.row {
+  --bs-gutter-x: 0rem;
+}
+  
+.platehover:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.platehover:hover img{
+    filter: brightness(70%);
+    transition: all 0.5s ease-in-out;
+}
+
+  .video-section iframe {
+    
+    width: 100%;
+    height: auto;
+  }
+  @media (min-width: 992px) {
+    .video-section iframe {
+      
+      width: 560px;
+      height: 315px;
+    }
+  }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
