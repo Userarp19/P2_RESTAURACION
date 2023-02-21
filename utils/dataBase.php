@@ -1,6 +1,6 @@
 <?php
     class DataBase{
-        public static function connect($host='localhost',$user='root',$pwd='',$db='bbdd_steakehouse'){
+        public static function connect($host='localhost:3306',$user='mohammed',$pwd='Informatica_34',$db='bbdd_steakehouse'){
 
             $con = new mysqli($host,$user,$pwd,$db);
             //Check connection

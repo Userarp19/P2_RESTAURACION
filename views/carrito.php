@@ -96,7 +96,7 @@
                     </td>   
                 </tr>
 
-                <form action=<?=base_url.'producto/saveOrder'?> method='post'>
+                <form action=<?=base_url.'producto/cockies'?> method='post'>
                 <input type="hidden" name="finishOrdering" value="true">
                 <tr>
                 <td colspan="5">
@@ -189,7 +189,7 @@
                 </form>
                 <?php $pos++;}?>
                 <div class=" pb-3 pt-3  d-sm-none">
-                <form action=<?=base_url.'producto/saveOrder'?>method='post'>
+                <form action=<?=base_url.'producto/cockies'?> method='post'>
                 <input type="hidden" name="finishOrdering" value="true">
                 <button type="submit" style=" all: unset;  cursor: pointer; float: right;">
                         

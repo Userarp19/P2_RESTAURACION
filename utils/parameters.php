@@ -1,2 +1,2 @@
 <?php
-define("base_url","http://primerentornofariat.com/p1/");
+define("base_url","https://mohammedfariat.bernat2023.tk/p2/");

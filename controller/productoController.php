@@ -427,6 +427,30 @@ public function userOrders(){
   include ("views/includes/footer.php");
   
 }
+	
+/**public function userOrders(){
+
+  require("utils/protection.php");
+  include ("classes/producteDAO.php");
+  
+  if(isset($_SESSION['compra'])){
+    $orderCounts = count($_SESSION['compra']);
+  }else{
+    $orderCounts = '';
+  }
+  
+  include ("views/includes/header.php");
+
+  include ("views/userOrders.php");
+  include ("views/includes/footer.php");
+  
+}
+public function saveOrder(){
+  
+  include_once("utils/protection.php");
+  include ("utils/saveOrder.php");
+  
+}*/
 
 }
 

@@ -23,7 +23,7 @@
                 <a class="nav-link " href="#"><img class="sizeicon" src=<?=base_url."assets/icons/twitter.svg"?> alt=""> </a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link " href="#"> <img class="sizeicon" src=<?=base_url."assets/icons/Facebook.svg"?> alt=""> </a>
+                <a class="nav-link " href="#"> <img class="sizeicon" src=<?=base_url."assets/icons/facebook.svg"?> alt=""> </a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link " href="#"> <img class="sizeicon" src=<?=base_url."assets/icons/whatsapp.svg"?>  alt=""> </a>
